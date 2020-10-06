@@ -1,0 +1,56 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width:100%;
+    background-image:url('./bg.jpg');
+    background-position:center center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+
+h1{
+    font-size:6rem;
+}
+
+.buffer{
+    height:10rem;
+    
+}
+
+
+
+hr{
+    border-color:#bd3c5c;
+    border-width:10px;
+    max-width:100px;
+    border-radius:10px;
+}
+
+.my-button{
+    height:3rem;
+    width:10rem;
+    text-transform:uppercase;
+    background-color:#fcba03;
+    color:black;
+    transition:width 1s;
+    border-color:#fcba03;
+    border-radius:150px;
+    font-weight:900;
+}
+
+.my-button:hover{
+    background-color:#bd3c5c;
+    width:11rem;
+    box-shadow:10px 10px 30px 5px black;
+    border-color:#bd3c5c;
+
+}
+
+.container{
+    margin-top:300px;
+}
+
+
+
